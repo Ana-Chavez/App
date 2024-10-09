@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Confirmar Datos"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Nombre -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Fecha de Nacimiento -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Teléfono -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Email -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Descripcion -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Botón Editar -->
+    <Button
+        android:id="@+id/btnEditar"
+        style="@style/Boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Datos"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"/>
+
+
+</LinearLayout>
